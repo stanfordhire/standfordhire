@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job | Standford Hire</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="legal.css">
+<style>
+.hero .company{color:var(--muted);font-size:1.15rem;margin-bottom:16px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{background:#fff;border-radius:999px;padding:6px 16px;font-size:.95rem;font-weight:600}
+.btn{display:inline-block;background:var(--signal);color:var(--ink);padding:14px 28px;border-radius:999px;font-weight:600;text-decoration:none;transition:background .2s,transform .2s}
+.btn:hover{background:var(--signal-dark);transform:translateY(-2px)}
+.apply{background:var(--mist);border-radius:18px;padding:28px;margin-top:40px}
+.apply p{font-size:.95rem;color:var(--muted);margin:14px 0 0}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="index.html">Standford<span>Hire</span></a><a class="back" href="index.html#jobs">&larr; All jobs</a></div></header>
+
+<div class="hero"><div class="wrap">
+  <h1 id="title">Loading...</h1>
+  <p class="company" id="company"></p>
+  <div class="chips" id="chips"></div>
+</div></div>
+
+<article id="body"></article>
+
+<footer><div class="wrap"><a href="index.html">Home</a><a href="disclaimer.html">Disclaimer</a><a href="terms.html">Terms and Conditions</a><p style="margin-top:10px">We do not guarantee that you will get a job. It depends on your skills and the employer's decision.</p><p>&copy; <span id="y">2026</span> Standford Hire. All rights reserved.</p></div></footer>
+
+<script src="jobs.js"></script>
+<script>
+document.getElementById("y").textContent = new Date().getFullYear();
+const id = new URLSearchParams(location.search).get("id");
+const job = JOBS.find(j => j.id === id);
+const body = document.getElementById("body");
+
+function el(tag, text, parent){ const e = document.createElement(tag); if(text) e.textContent = text; parent.appendChild(e); return e; }
+
+if (!job) {
+  document.getElementById("title").textContent = "Job not found";
+  el("p", "This job may have been filled or removed.", body);
+  const a = el("a", "See all jobs", body); a.href = "index.html#jobs";
+} else {
+  document.title = job.title + " at " + job.company + " | Standford Hire";
+  document.getElementById("title").textContent = job.title;
+  document.getElementById("company").textContent = job.company;
+  const chips = document.getElementById("chips");
+  [job.location, job.type, job.salary, "Posted " + job.posted].forEach(t => el("span", t, chips).className = "chip");
+
+  el("h2", "About the role", body);
+  job.description.forEach(p => el("p", p, body));
+  el("h2", "What you need", body);
+  const ul = el("ul", "", body);
+  job.requirements.forEach(r => el("li", r, ul));
+
+  const box = el("div", "", body); box.className = "apply";
+  el("h2", "Interested in this job?", box).style.marginTop = "0";
+  const a = el("a", "Apply now", box);
+  a.className = "btn"; a.href = job.applyUrl; a.target = "_blank"; a.rel = "noopener noreferrer";
+  el("p", "You will leave Standford Hire and apply directly with the employer. We only post the job and do not make hiring decisions.", box);
+}
+</script>
+</body>
+</html>
