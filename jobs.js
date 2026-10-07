@@ -137,46 +137,203 @@ const JOBS = [
     applyUrl: "https://apply.practiceplushij.com/vacancies/14996/healthcare-assistant.html"
   },
   {
-    id: "care-assistant-leeds",
-    title: "Care Assistant",
-    company: "Example Care Group",
-    location: "Leeds",
-    type: "Part time",
-    salary: "£12.50 per hour",
-    posted: "1 October 2026",
-    summary: "Support residents with daily living in a warm, well-run care home.",
+    id: "healthcare-assistant-edinburgh",
+    title: "Healthcare Assistant",
+    company: "MCS Healthcare",
+    location: "Edinburgh",
+    type: "Full time, part time or flexible (zero-hour)",
+    salary: "£17.00 per hour",
+    posted: "15 September 2026",
+    summary: "Provide community care with dignity and compassion, paid for every minute you work, with flexible shifts.",
     description: [
-      "Example Care Group is recruiting Care Assistants for its home in Leeds. Shifts are flexible and include weekends.",
-      "You will help residents with personal care, meals and activities, and treat everyone with dignity and respect."
+      "Are you a compassionate, experienced healthcare assistant looking for a role where your work really matters and your time is truly valued?",
+      "MCS Healthcare is a CQC-regulated provider supporting people in the community, from those with everyday needs to individuals requiring more complex care. Great care only happens when the team is looked after just as much as the clients."
     ],
     requirements: [
-      "Caring, patient and reliable",
-      "Previous care experience is helpful but not essential",
-      "Enhanced DBS check (arranged by the employer)",
-      "Right to work in the UK"
+      "A Care Certificate or NVQ in Health & Social Care",
+      "At least 1 year of care experience",
+      "A full UK driving licence",
+      "Safeguarding Level 2 or 3",
+      "A DBS registered on the Update Service",
+      "Valid Manual Handling & Basic Life Support training"
     ],
-    applyUrl: "https://example.com/apply/care-assistant"
+    sections: [
+      {
+        heading: "Pay and shifts",
+        bullets: [
+          "Pay: £17.00 per hour",
+          "Job types: full time, part time or flexible zero-hour contracts",
+          "Shifts: 09:00 - 21:00"
+        ]
+      },
+      {
+        heading: "What you will be doing",
+        bullets: [
+          "Administering medication",
+          "Catheter care",
+          "Monitoring health observations",
+          "Managing epilepsy and other complex needs",
+          "Providing reassurance, dignity, and emotional support every step of the way"
+        ]
+      },
+      {
+        heading: "Why join MCS Healthcare?",
+        paragraphs: [
+          "Care work can be demanding, but also deeply rewarding. MCS Healthcare has built a supportive, respectful environment where you're paid for every minute you work, trained to succeed, and recognised for your commitment.",
+          "What is on offer:"
+        ],
+        bullets: [
+          "Excellent pay: £17.00 per hour",
+          "Paid induction and sign-offs, so your time is valued from the very beginning",
+          "Ongoing training and development, whether you're brushing up or branching out",
+          "Recognition that matters: from 'Employee of the Month' to Long Service Awards, your dedication won't go unnoticed",
+          "Shifts that fit your life: days, nights, weekdays, weekends, you decide what works for you",
+          "Refer a friend bonus scheme for both Nurses and Healthcare Assistant positions"
+        ]
+      }
+    ],
+    applyUrl: "https://www.mcshealthcare.co.uk/job/healthcare-assistant-6030110/apply"
   },
   {
-    id: "customer-service-birmingham",
-    title: "Customer Service Advisor",
-    company: "Example Retail Co",
-    location: "Birmingham",
-    type: "Full time",
-    salary: "£24,000 - £27,000 per year",
-    posted: "30 September 2026",
-    summary: "Help customers by phone and email and make sure every query is resolved.",
+    id: "support-worker-st-austell",
+    title: "Support Worker",
+    company: "Hft",
+    location: "St Austell, Cornwall",
+    type: "24 hours per week",
+    salary: "£13.45 (24 hours per week)",
+    posted: "7 October 2026",
+    summary: "Support learning disabled adults to live life their way as a Support Worker at Trelowen in St Austell.",
     description: [
-      "Example Retail Co needs a Customer Service Advisor to join its busy support team in Birmingham.",
-      "You will answer customer questions, resolve orders and returns, and keep clear records of every conversation."
+      "Hft is a leading social care provider that stands alongside learning disabled adults, empowering them to live life their way. As a Support Worker, you'll play a vital role in enabling people to achieve their goals, grow in confidence, and live fulfilling lives. Every day, you'll stand alongside people to keep them active, connected, and in control of their own life.",
+      "You're passionate about standing alongside learning disabled adults and supporting them to live life their way."
     ],
     requirements: [
-      "Clear, friendly communication",
-      "Comfortable using computers and email",
-      "Previous customer service experience preferred",
-      "Available Monday to Friday"
+      "Patience, supportiveness, and respect for people's choices",
+      "A positive, encouraging approach that celebrates achievement",
+      "Strong communication skills to build trusting relationships",
+      "Willingness to learn and work towards a Health and Social Care qualification",
+      "Confidence providing personal support when it's needed",
+      "Flexibility to work evenings, weekends, waking and sleep-in shifts",
+      "Experience in social care is welcome but not essential; your attitude and values matter most",
+      "A satisfactory DBS and background checks"
     ],
-    applyUrl: "https://example.com/apply/customer-service"
+    sections: [
+      {
+        heading: "Role details",
+        bullets: [
+          "Location: St Austell, Cornwall",
+          "Department: Trelowen",
+          "Division: Care & Support - West",
+          "Hours per week: 24"
+        ]
+      },
+      {
+        heading: "What you will be doing",
+        paragraphs: [
+          "Every day is different, but your role focuses on empowering independence, choice, and dignity:"
+        ],
+        bullets: [
+          "Enable people to make their own choices and live life in a way that feels right for them",
+          "Encourage participation in social, leisure, work, and community activities that bring connection and enjoyment",
+          "Promote health, safety, and wellbeing while respecting people's decisions",
+          "Support people to attend health appointments and manage medication confidently",
+          "Build independence step by step, so people gain new skills and self-belief",
+          "Stand alongside people to manage daily life with confidence, including personal care when needed",
+          "Keep accurate records and follow safeguarding practices to ensure everyone is safe and supported"
+        ]
+      },
+      {
+        heading: "Life at Hft",
+        paragraphs: [
+          "Joining Hft means becoming part of a warm, inclusive team that values both your wellbeing and the impact you make. Hft believes every learning disabled adult should have the chance to live the best life possible, and that begins with supporting its colleagues.",
+          "Its values guide everything it does: diverse and inclusive, kind and compassionate, positive and solution-focused, and visionary about what the best life possible can look like. Here, your work has real purpose. You'll be part of a welcoming team that values what you bring, supports your growth, and ensures you feel included and appreciated every step of the way."
+        ]
+      },
+      {
+        heading: "What is on offer",
+        bullets: [
+          "A role with real impact, where your work empowers others",
+          "A warm, supportive, and inclusive team culture",
+          "33 days' annual leave (including bank holidays)",
+          "Access to award-winning training and career development",
+          "Flexible pay options via Wagestream",
+          "Wellbeing support including Digital GP, counselling, and mental health services",
+          "Discounts on mobiles, life assurance, and referral rewards",
+          "Family-friendly policies and return-to-work bonuses"
+        ],
+        paragraphs: [
+          "If this sounds like the kind of role where you can thrive, Hft would love to hear from you. Apply today and play a vital role in empowering learning disabled adults to live the life they choose."
+        ]
+      },
+      {
+        heading: "Accessibility and background checks",
+        paragraphs: [
+          "Hft believes everyone should have the support they need to succeed. If you require any reasonable adjustments during the application process or in the role itself, Hft, proudly a Disability Confident Employer, is committed to ensuring disabled people can apply, succeed, and thrive.",
+          "To keep the people it supports safe, this role requires a satisfactory DBS and background checks. Hft will guide you through the process."
+        ]
+      }
+    ],
+    applyUrl: "https://hft.jobtrain.co.uk/DecideInternalExternal/DecideInternalExternal?JobId=744"
+  },
+  {
+    id: "health-wellbeing-support-worker-swansea",
+    title: "Health and Wellbeing Support Worker",
+    company: "Moorland Nursing Home",
+    location: "Waunarlwydd, Swansea",
+    type: "Full time or part time, permanent",
+    salary: "£13.77 - £15.56 per hour",
+    posted: "7 October 2026",
+    summary: "Join the team at Moorland Nursing Home supporting people with mental health and complex needs.",
+    description: [
+      "Moorland Nursing Home is looking to recruit enthusiastic and dedicated Health and Wellbeing Support Workers to join the team at its home in Waunarlwydd, Swansea.",
+      "Moorland Nursing Home provides exceptional standards of care for people with mental health and complex needs. There has been significant investment made to make changes to the building and layout, which positively impacts the environment to live and work in.",
+      "Do you want to work as part of a team that provides quality service user-centred care? Do you thrive on supporting people on their recovery and to live a fulfilled life? Then the team at Moorland invites you to apply."
+    ],
+    requirements: [
+      "Previous experience in a care home setting is preferred (1 year preferred)",
+      "Ability to communicate effectively in English (essential)",
+      "A compassionate and caring attitude towards service user care",
+      "GCSE or equivalent (preferred)",
+      "Weekend availability (essential)"
+    ],
+    sections: [
+      {
+        heading: "What you will be doing",
+        bullets: [
+          "Communicate effectively with service users, families, and healthcare professionals",
+          "Assist with personal care tasks, including bathing, grooming, and assisting with nutritional needs",
+          "Support service users with mobility and physical therapy exercises",
+          "Maintain accurate records of service user care activities",
+          "Collaborate with healthcare professionals to develop and implement care plans",
+          "Provide companionship and emotional support to service users"
+        ]
+      },
+      {
+        heading: "Schedule",
+        bullets: [
+          "Day shift",
+          "Night shift",
+          "Overtime available",
+          "Weekend availability essential"
+        ]
+      },
+      {
+        heading: "Pay and benefits",
+        bullets: [
+          "Pay: £13.77 - £15.56 per hour, depending on qualifications and experience",
+          "Competitive pay rate: £24,242.40 - £36,541.44 per annum",
+          "Company pension",
+          "Onsite free parking",
+          "Ongoing training and support",
+          "Excellent progression opportunities",
+          "Refer a friend scheme"
+        ],
+        paragraphs: [
+          "Joining the team as a Health and Wellbeing Support Worker offers the opportunity to make a real difference to the lives of service users while gaining valuable experience in the healthcare field."
+        ]
+      }
+    ],
+    applyUrl: "https://uk.indeed.com/job/health-and-well-being-support-worker-02e86eda5000d2e2"
   },
   {
     id: "clinical-lead-nurse-workington",
