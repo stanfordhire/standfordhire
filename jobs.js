@@ -40,25 +40,101 @@ const JOBS = [
     applyUrl: "https://example.com/apply/site-supervisor"
   },
   {
-    id: "junior-developer-london",
-    title: "Junior Web Developer",
-    company: "Example Digital Studio",
-    location: "London (hybrid)",
-    type: "Full time",
-    salary: "£30,000 - £36,000 per year",
-    posted: "2 October 2026",
-    summary: "Join a friendly team building websites for local businesses and learn on the job.",
+    id: "healthcare-assistant-hmp-fosse-way",
+    title: "Healthcare Assistant",
+    company: "PPG Health In Justice",
+    location: "HMP Fosse Way",
+    type: "Full time, permanent",
+    salary: "Up to £29,723 per year",
+    posted: "7 October 2026",
+    summary: "Support the healthcare team as a Healthcare Assistant at HMP Fosse Way, a modern, busy male prison.",
     description: [
-      "Example Digital Studio is hiring a Junior Web Developer to help build and maintain client websites.",
-      "You will work with senior developers, take on real projects from week one, and get regular training."
+      "HMP Fosse Way opened in May 2023. Its state of the art design and facilities offer a secure environment to provide skills and qualifications to the men, enabling them to secure meaningful employment on release with the aim of reducing reoffending rates.",
+      "HMP Fosse Way is a busy male prison with a capacity for up to 1900 inmates. The site offers free parking and an on site gym. PPG Health In Justice is recruiting Healthcare Assistants to support the wider healthcare team."
     ],
     requirements: [
-      "Knowledge of HTML, CSS and JavaScript",
-      "A portfolio or personal projects you can show us",
-      "Willingness to learn and take feedback",
-      "Able to work in London two days a week"
+      "NVQ level 2/3 or equivalent in Health and Social Care",
+      "Experience within a healthcare assistant role, ideally within a hospital, community or prison environment",
+      "A non-judgmental and compassionate approach",
+      "Excellent communication skills",
+      "Good IT skills and IT literacy",
+      "Ability to work within a busy environment",
+      "Ability to work unsupervised whilst following policy and procedures",
+      "Legal right to work in the UK",
+      "Offers of employment are subject to additional vetting and security checks, due to the nature of the role"
     ],
-    applyUrl: "https://example.com/apply/junior-developer"
+    sections: [
+      {
+        heading: "Salary",
+        paragraphs: [
+          "This position is full time, with an annual salary of up to £29,723 per annum."
+        ]
+      },
+      {
+        heading: "Hours",
+        bullets: [
+          "Full time: 37.5 hours per week",
+          "The service runs over a 24 hour period",
+          "Working 3 shifts per week, however on the 8th week you will do 4 shifts to make 37.5 hours per week",
+          "1 in 3 weekends",
+          "0700 - 2000 / 1 in 3 weekends",
+          "No routine night shifts, but you may need to cover at times when asked"
+        ]
+      },
+      {
+        heading: "What you will be doing",
+        paragraphs: [
+          "As a Healthcare Assistant, your responsibilities will vary. You will:"
+        ],
+        bullets: [
+          "Support the registered nurse in implementing an agreed plan of care in association with the patient and in accordance with instructions and training received whilst promoting safe patient care",
+          "Be willing to develop and apply new skills to maintain and enhance clinical service delivery"
+        ]
+      },
+      {
+        heading: "What the employer looks for in you",
+        paragraphs: [
+          "Practice Plus Group is looking for caring, compassionate but also driven professionals who can help drive its vision for fair and inclusive healthcare access to all.",
+          "Practice Plus Group's purpose is to \"Unlock your best work life\", and its core values are:"
+        ],
+        bullets: [
+          "Treat patients and each other as you would like to be treated",
+          "Act with integrity",
+          "Embrace diversity",
+          "Strive to do things better together"
+        ]
+      },
+      {
+        heading: "How you will be supported",
+        bullets: [
+          "Bespoke induction, including the Introducing Health in Justice training course",
+          "Competency framework",
+          "Regional and national career development opportunities",
+          "A bespoke Learning Management System to address your learning needs",
+          "Support from the wider team"
+        ],
+        paragraphs: [
+          "If you are interested in career development, there is a wide range of opportunities to develop your skills and experience, including both internal and external options for development and learning."
+        ]
+      },
+      {
+        heading: "What else is on offer",
+        bullets: [
+          "Discounts on shopping and leisure activities",
+          "Colleagues working at HMP Fosse Way have the added benefits of free parking, free lunches and a free gym membership",
+          "Support to grow in your role and continue your professional development",
+          "24/7 employee assistance helpline and financial assistance when you need it"
+        ]
+      },
+      {
+        heading: "About Practice Plus Group",
+        paragraphs: [
+          "The Health in Justice team at Practice Plus Group makes a real difference across over 53 prisons, young offenders and immigration removal centres. Practice Plus Group is the UK's leading independent provider of NHS services to over 40,000 patients in secure environments, always putting their needs first, regardless of their background.",
+          "Secure environments are one of the most challenging, yet rewarding places for healthcare professionals to work. If you're looking for a role where you can develop your existing healthcare skills and learn something new every day in an environment that never stands still, then this could be the opportunity for you."
+        ]
+      }
+    ],
+    applyUrl: "https://apply.practiceplushij.com/vacancies/14996/healthcare-assistant.html"
   },
   {
     id: "care-assistant-leeds",
