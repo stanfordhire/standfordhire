@@ -19,25 +19,83 @@
 
 const JOBS = [
   {
-    id: "site-supervisor-manchester",
-    title: "Site Supervisor",
-    company: "Example Construction Ltd",
-    location: "Manchester",
+    id: "autism-support-care-worker-remote",
+    title: "Autism Support Care Worker (Sponsorship)",
+    company: "Standford Hire",
+    location: "Remote",
     type: "Full time",
-    salary: "£35,000 - £42,000 per year",
-    posted: "2 October 2026",
-    summary: "Lead a small team on residential building sites and keep projects on schedule and safe.",
+    salary: "£35,420 - £38,800 per year",
+    posted: "7 October 2026",
+    summary: "Provide remote, person-centred support to autistic adults through regular video check-ins.",
     description: [
-      "Example Construction Ltd is looking for an experienced Site Supervisor to manage day-to-day work on residential projects across Greater Manchester.",
-      "You will coordinate trades, check the quality of work, and make sure health and safety standards are followed on every site."
+      "We are seeking compassionate, neurodiversity-affirming individuals to provide remote support to autistic adults. You will be a consistent, safe presence, monitoring well-being and offering respectful, person-centred care.",
+      "This is not a compliance-based role. We believe behaviour is communication, autonomy is a right, and trust is the foundation of all care."
     ],
     requirements: [
-      "Previous experience supervising on a construction site",
-      "SSSTS or SMSTS certificate (or willingness to obtain one)",
-      "Good communication and organisation skills",
-      "Full UK driving licence"
+      "NCP Certificate",
+      "Experience supporting autistic or neurodivergent individuals",
+      "Strong communication and active listening skills",
+      "Ability to work independently in a remote setting",
+      "Reliable internet and a quiet, private workspace",
+      "Commitment to neurodiversity-affirming principles (consent, autonomy, social model)",
+      "Emotional resilience and strong ethical judgment"
     ],
-    applyUrl: "https://example.com/apply/site-supervisor"
+    sections: [
+      {
+        heading: "What you will be doing",
+        bullets: [
+          "Provide scheduled check-ins with each patient at least once every hour via a video interaction platform",
+          "Support 3 patients assigned by default (caseload may vary)",
+          "Monitor mood, behaviour, and well-being, and document your observations",
+          "Offer emotional support using active listening and validation",
+          "Recognise and respond to distress using trauma-informed strategies",
+          "Follow the communication guidelines provided during training",
+          "Escalate concerns promptly to supervisors",
+          "Maintain accurate records and participate in team meetings"
+        ]
+      },
+      {
+        heading: "Preferred (not essential)",
+        bullets: [
+          "Background in healthcare, social care, psychology, or education",
+          "Training in trauma-informed practice"
+        ]
+      },
+      {
+        heading: "What we offer",
+        bullets: [
+          "Ongoing supervision and professional development",
+          "A supportive, collaborative team environment",
+          "Flexible scheduling",
+          "Competitive compensation",
+          "The opportunity to make a genuine difference"
+        ]
+      },
+      {
+        heading: "Our values",
+        bullets: [
+          "Behaviour is communication. We look for the need beneath the behaviour.",
+          "Autonomy is a right. We support decision-making; we don't decide for people.",
+          "Consent is ongoing. We ask before acting. We respect 'no' the first time.",
+          "Trust is the foundation. We build it slowly, through consistency and respect.",
+          "Different brains are not broken brains. We celebrate neurodiversity."
+        ]
+      },
+      {
+        heading: "How to apply",
+        paragraphs: [
+          "Submit your CV and a brief cover letter explaining why this role resonates with you, or click the Apply now button below.",
+          "Apply to: latifa@stanfordhire.co.uk"
+        ]
+      },
+      {
+        heading: "Equal opportunities",
+        paragraphs: [
+          "We are an equal opportunity employer. We strongly encourage applications from neurodivergent individuals and those from underrepresented communities."
+        ]
+      }
+    ],
+    applyUrl: "mailto:latifa@stanfordhire.co.uk?subject=Application%20-%20Autism%20Support%20Care%20Worker"
   },
   {
     id: "healthcare-assistant-hmp-fosse-way",
