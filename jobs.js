@@ -11,6 +11,8 @@
    each line.
 
    applyUrl = the employer's own page where people apply.
+   visa = OPTIONAL. Add a line like  visa: "Visa sponsorship available",
+   to show a highlighted badge. Delete the line if not needed.
 
    Long jobs: put each paragraph on ONE line inside quotes.
    Never press Enter in the middle of a quoted line.
@@ -22,10 +24,10 @@ const JOBS = [
     id: "autism-support-care-worker-remote",
     title: "Autism Support Care Worker (Sponsorship)",
     company: "Standford Hire",
-    location: "Remote",
+    location: "Hybrid",
     type: "Full time or flexible",
-     Visa: "Sponsorship",
-    salary: "£13.75 – £15.50 per hour",
+    visa: "Visa sponsorship available",
+    salary: "£13.75 - £15.50 per hour",
     posted: "7 October 2026",
     summary: "Provide remote, person-centred support to autistic adults through regular video check-ins.",
     description: [
