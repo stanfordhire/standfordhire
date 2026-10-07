@@ -11,6 +11,10 @@
    each line.
 
    applyUrl = the employer's own page where people apply.
+
+   Long jobs: put each paragraph on ONE line inside quotes.
+   Never press Enter in the middle of a quoted line.
+   Extra headings go in "sections" (see the last job).
    ========================================================== */
 
 const JOBS = [
@@ -99,32 +103,72 @@ const JOBS = [
     applyUrl: "https://example.com/apply/customer-service"
   },
   {
-    id: "Clinical-Lead-Nurse-Workington",
+    id: "clinical-lead-nurse-workington",
     title: "Clinical Lead Nurse",
     company: "Elysium Healthcare",
     location: "Workington",
     type: "Full time",
-    salary: "£44,183 per Annual Salary",
+    salary: "£44,183 per year",
     posted: "29 September 2026",
-    summary: "Pick, pack and load orders in a modern warehouse with early and late shifts.",
+    summary: "Lead nursing and clinical strategy at Gregory House, a specialist secure mental health service in Workington.",
     description: [
-      "Are you an experienced Registered Mental Health Nurse wanting to work in an environment where kindness and teamwork is integral? Where you'll be invested in, with opportunities to develop and grow your career to achieve your goals? Then join the team at Gregory House as a Clinical Lead Nurse and come and experience what delivering great healthcare should feel like. 
-
-You will support senior clinical leadership to inform the development of a clear strategy to engage, and co-produce transformation plans with service users/ carers / significant others in the design, delivery and optimisation of new pathways to support timely transition to community services as well as avoiding unnecessary admission to secure services.
-As the Senior Clinical Nurse, you will be innovative in your thinking with a passion for clinical excellence, both influencing and co-producing strategies that address identified areas for improvement.  You will support the secure service whilst working with partners across other pathways and systems to create a vision for transformation across the ‘whole pathway’; a pathway that reflects the life of the people using services, along with their families, carers and significant others.
-Your career at Elysium will be rewarding and fulfilled, where you can take pride in knowing that you've made a difference. While you're caring for service users, improving their lives and looking out for your colleagues, we'll be looking after you. With Wellbeing support and activities to support your mental health, a range of benefits that can save you money and make a difference, and development to nurture your career. ",
-      
-   "What you will be doing:
-Provide support to the leadership initiatives in the delivery of highest quality care for people in secure care.
-To ensure systems are designed, implemented and monitored to ensure both efficient financial and clinical performance.
-To support the development of standards for nursing services, reflecting and positively promoting nursing practice.
-To support in areas of clinical governance from a nursing perspective."
+      "Are you an experienced Registered Mental Health Nurse wanting to work in an environment where kindness and teamwork is integral? Where you'll be invested in, with opportunities to develop and grow your career to achieve your goals? Then join the team at Gregory House as a Clinical Lead Nurse and come and experience what delivering great healthcare should feel like.",
+      "You will support senior clinical leadership to inform the development of a clear strategy to engage, and co-produce transformation plans with service users / carers / significant others in the design, delivery and optimisation of new pathways to support timely transition to community services as well as avoiding unnecessary admission to secure services.",
+      "As the Senior Clinical Nurse, you will be innovative in your thinking with a passion for clinical excellence, both influencing and co-producing strategies that address identified areas for improvement. You will support the secure service whilst working with partners across other pathways and systems to create a vision for transformation across the 'whole pathway'; a pathway that reflects the life of the people using services, along with their families, carers and significant others.",
+      "Your career at Elysium will be rewarding and fulfilled, where you can take pride in knowing that you've made a difference. While you're caring for service users, improving their lives and looking out for your colleagues, we'll be looking after you. With wellbeing support and activities to support your mental health, a range of benefits that can save you money and make a difference, and development to nurture your career."
     ],
     requirements: [
-      "Able to lift and move items safely",
-      "Reliable timekeeping",
-      "Forklift licence is an advantage but not required",
-      "Right to work in the UK"
+      "Registered Nurse RMN/RMNH",
+      "3 years' post qualification experience",
+      "2 years' operational experience",
+      "Management at senior level"
+    ],
+    sections: [
+      {
+        heading: "What you will be doing",
+        bullets: [
+          "Provide support to the leadership initiatives in the delivery of highest quality care for people in secure care.",
+          "Ensure systems are designed, implemented and monitored to ensure both efficient financial and clinical performance.",
+          "Support the development of standards for nursing services, reflecting and positively promoting nursing practice.",
+          "Support in areas of clinical governance from a nursing perspective."
+        ]
+      },
+      {
+        heading: "Where you will be working",
+        paragraphs: [
+          "Location: Furness Road, Workington, Cumbria, United Kingdom, CA14 3PD",
+          "Gregory House provides a specialist provision with enhanced levels of support which allows people with continuing challenging behaviour and high support needs to be cared for in the least restrictive setting possible, but within a service which is robust and structured enough to meet their ongoing needs and risks.",
+          "The service ensures people lead good and meaningful everyday lives, where they have choice and control, accessing mainstream services and facilities, engaging in work and training, in leisure opportunities, hobbies and areas of personal interest. Gregory House encourages people to be as independent as possible with the long-term aim of people moving onto a more independent living setting."
+        ]
+      },
+      {
+        heading: "What you will get",
+        paragraphs: [
+          "At Elysium Healthcare, we believe in taking care of the people who care for others. You'll enjoy a comprehensive benefits package designed to support your wellbeing, growth, and future:"
+        ],
+        bullets: [
+          "Annual base salary of £44,183",
+          "The equivalent of 33 days annual leave (including bank holidays), plus your birthday off and the option to buy additional annual leave in the annual selection window",
+          "Career development and training to help you achieve your professional goals",
+          "Access to the Rewards & Benefits platform Ely-Vate: everyday savings, exclusive benefits and a wellbeing hub",
+          "Wellbeing support and activities to help you maintain a healthy work-life balance",
+          "Access to the Blue Light Card, which provides a range of exclusive offers and discounts",
+          "Life Assurance, for added peace of mind",
+          "Stream: instant access to earned wages when you need it, plus the option to save directly from your wages, alongside financial wellbeing support",
+          "24/7 GP service and second medical opinion",
+          "Enhanced Maternity Package",
+          "Pension contribution, to help secure your future",
+          "Subsidised meals and onsite free parking"
+        ]
+      },
+      {
+        heading: "About your next employer",
+        paragraphs: [
+          "Elysium Healthcare has over 8,000 employees and a unique approach to the delivery of care. With a network of over 80 services across England and Wales covering Mental Health, Neurological, Learning Disabilities & Autism, Children & Education, there is opportunity for you to grow and move.",
+          "Elysium Healthcare is part of Ramsay Health Care with a global network that extends across 10 countries and employs over 86,000 people globally.",
+          "Elysium Healthcare follows safer recruitment of staff for all appointments and is a Disability Confident employer, committed to inclusive and accessible recruitment. It is a requirement that all staff understand it is each person's individual responsibility to promote and safeguard the welfare of service users. All candidates will be subject to a DBS disclosure."
+        ]
+      }
     ],
     applyUrl: "https://www.elysiumhealthcare.co.uk/careers/vacancies/16918/clinical-lead-nurse.html"
   }
