@@ -23,8 +23,9 @@ const JOBS = [
     title: "Autism Support Care Worker (Sponsorship)",
     company: "Standford Hire",
     location: "Remote",
-    type: "Full time",
-    salary: "£35,420 - £38,800 per year",
+    type: "Full time or flexible",
+     Visa: "Sponsorship",
+    salary: "£13.75 – £15.50 per hour",
     posted: "7 October 2026",
     summary: "Provide remote, person-centred support to autistic adults through regular video check-ins.",
     description: [
