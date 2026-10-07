@@ -126,6 +126,6 @@ To support in areas of clinical governance from a nursing perspective."
       "Forklift licence is an advantage but not required",
       "Right to work in the UK"
     ],
-    applyUrl: "https://example.com/apply/warehouse-operative"
+    applyUrl: "https://www.elysiumhealthcare.co.uk/careers/vacancies/16918/clinical-lead-nurse.html"
   }
 ];
