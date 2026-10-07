@@ -24,7 +24,7 @@ const JOBS = [
     id: "autism-support-care-worker-remote",
     title: "Autism Support Care Worker (Sponsorship)",
     company: "Stanford Hire",
-    location: "Hybrid",
+    location: "Hybrid/London",
     type: "Full time or flexible",
     visa: "Visa sponsorship available",
     salary: "£13.75 - £15.50 per hour",
@@ -82,6 +82,18 @@ const JOBS = [
           "Consent is ongoing. We ask before acting. We respect 'no' the first time.",
           "Trust is the foundation. We build it slowly, through consistency and respect.",
           "Different brains are not broken brains. We celebrate neurodiversity."
+        ]
+      },
+      {
+        heading: "Visa sponsorship",
+        paragraphs: [
+          "Visa sponsorship may be available for exceptional candidates who meet the following criteria:"
+        ],
+        bullets: [
+          "Eligibility: candidates must meet minimum qualification requirements and demonstrate strong alignment with our values",
+          "Role suitability: sponsorship is assessed on a case-by-case basis, dependent on role requirements and local regulations",
+          "Certification: candidates must complete the NCP certificate prior to visa processing",
+          "Commitment: candidates must commit to a minimum 16-month contract"
         ]
       },
       {
