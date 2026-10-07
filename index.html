@@ -79,6 +79,7 @@ h2{font-size:clamp(1.9rem,4vw,2.7rem);margin-bottom:16px}
 .job .co{color:var(--muted);font-size:1rem}
 .job .meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 .job .meta span{background:var(--mist);border-radius:999px;padding:3px 14px;font-size:.88rem;font-weight:600}
+.job .meta span.visa{background:var(--signal)}
 .job .view{flex:none;font-weight:600;color:var(--signal-dark)}
 @media(max-width:820px){.job{flex-direction:column;align-items:flex-start}}
 
@@ -118,7 +119,7 @@ footer p{max-width:46em;margin:0 auto 6px}
 
 <header>
   <div class="wrap nav">
-    <a class="logo" href="#">stanford<span>Hire</span></a>
+    <a class="logo" href="#">Stanford<span>Hire</span></a>
     <nav>
       <a href="#what">What we do</a>
       <a href="#jobs">Listings</a>
@@ -134,7 +135,7 @@ footer p{max-width:46em;margin:0 auto 6px}
   <div class="wrap">
     <div>
       <h1>Real jobs, posted where you can find them.</h1>
-      <p class="lead">stanford Hire shares job openings from employers so people looking for work can browse them in one place and apply directly.</p>
+      <p class="lead">Stanford Hire shares job openings from employers so people looking for work can browse them in one place and apply directly.</p>
       <a class="btn" href="#contact">Get in touch</a>
       <a class="btn ghost" href="#how">How it works</a>
     </div>
@@ -195,16 +196,16 @@ footer p{max-width:46em;margin:0 auto 6px}
   <div class="wrap">
     <h2>Looking for work, or hiring?</h2>
     <p>Send us a message and we will get back to you.</p>
-    <a class="btn" href="mailto:latifa@stanfordhire.co.uk">latifa@stanfordhire.co.uk</a>
+    <a class="btn" href="mailto:latifa@Stanfordhire.co.uk">latifa@Stanfordhire.co.uk</a>
   </div>
 </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <p>stanford Hire is a job posting agency. We do not guarantee employment or any job outcome. Whether you are hired depends on your skills, experience and the employer's decision.</p>
+    <p>Stanford Hire is a job posting agency. We do not guarantee employment or any job outcome. Whether you are hired depends on your skills, experience and the employer's decision.</p>
     <p><a href="disclaimer.html">Disclaimer</a> &nbsp;|&nbsp; <a href="terms.html">Terms and Conditions</a></p>
-    <p>&copy; <span id="y">2026</span> stanford Hire. All rights reserved.</p>
+    <p>&copy; <span id="y">2026</span> Stanford Hire. All rights reserved.</p>
   </div>
 </footer>
 <script src="jobs.js"></script>
@@ -217,7 +218,7 @@ JOBS.forEach(j=>{
   const h=document.createElement("h3");h.textContent=j.title;
   const c=document.createElement("div");c.className="co";c.textContent=j.company;
   const m=document.createElement("div");m.className="meta";
-  [j.location,j.type,j.salary].forEach(t=>{const s=document.createElement("span");s.textContent=t;m.appendChild(s)});
+  [j.location,j.type,j.salary,j.visa].filter(Boolean).forEach(t=>{const s=document.createElement("span");s.textContent=t;if(t===j.visa)s.className="visa";m.appendChild(s)});
   left.append(h,c,m);
   const v=document.createElement("span");v.className="view";v.textContent="View job";
   a.append(left,v);list.appendChild(a);
