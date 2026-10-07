@@ -99,17 +99,26 @@ const JOBS = [
     applyUrl: "https://example.com/apply/customer-service"
   },
   {
-    id: "warehouse-operative-bristol",
-    title: "Warehouse Operative",
-    company: "Example Logistics",
-    location: "Bristol",
+    id: "Clinical-Lead-Nurse-Workington",
+    title: "Clinical Lead Nurse",
+    company: "Elysium Healthcare",
+    location: "Workington",
     type: "Full time",
-    salary: "£13.00 per hour",
+    salary: "£44,183 per Annual Salary",
     posted: "29 September 2026",
     summary: "Pick, pack and load orders in a modern warehouse with early and late shifts.",
     description: [
-      "Example Logistics is hiring Warehouse Operatives to prepare and dispatch customer orders from its Bristol site.",
-      "You will pick and pack items accurately, load vehicles, and keep your work area safe and tidy."
+      "Are you an experienced Registered Mental Health Nurse wanting to work in an environment where kindness and teamwork is integral? Where you'll be invested in, with opportunities to develop and grow your career to achieve your goals? Then join the team at Gregory House as a Clinical Lead Nurse and come and experience what delivering great healthcare should feel like. 
+
+You will support senior clinical leadership to inform the development of a clear strategy to engage, and co-produce transformation plans with service users/ carers / significant others in the design, delivery and optimisation of new pathways to support timely transition to community services as well as avoiding unnecessary admission to secure services.
+As the Senior Clinical Nurse, you will be innovative in your thinking with a passion for clinical excellence, both influencing and co-producing strategies that address identified areas for improvement.  You will support the secure service whilst working with partners across other pathways and systems to create a vision for transformation across the ‘whole pathway’; a pathway that reflects the life of the people using services, along with their families, carers and significant others.
+Your career at Elysium will be rewarding and fulfilled, where you can take pride in knowing that you've made a difference. While you're caring for service users, improving their lives and looking out for your colleagues, we'll be looking after you. With Wellbeing support and activities to support your mental health, a range of benefits that can save you money and make a difference, and development to nurture your career. ",
+      
+   "What you will be doing:
+Provide support to the leadership initiatives in the delivery of highest quality care for people in secure care.
+To ensure systems are designed, implemented and monitored to ensure both efficient financial and clinical performance.
+To support the development of standards for nursing services, reflecting and positively promoting nursing practice.
+To support in areas of clinical governance from a nursing perspective."
     ],
     requirements: [
       "Able to lift and move items safely",
