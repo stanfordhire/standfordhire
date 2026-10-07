@@ -23,7 +23,7 @@ const JOBS = [
   {
     id: "autism-support-care-worker-remote",
     title: "Autism Support Care Worker (Sponsorship)",
-    company: "Standford Hire",
+    company: "Stanford Hire",
     location: "Hybrid",
     type: "Full time or flexible",
     visa: "Visa sponsorship available",
