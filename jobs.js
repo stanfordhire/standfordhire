@@ -91,7 +91,6 @@ const JOBS = [
         bullets: [
           "Eligibility: candidates must meet minimum qualification requirements and demonstrate strong alignment with our values",
           "Role suitability: sponsorship is assessed on a case-by-case basis, dependent on role requirements and local regulations",
-          "Certification: candidates must complete the NCP certificate prior to visa processing",
           "Commitment: candidates must commit to a minimum 16-month contract"
         ]
       },
