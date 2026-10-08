@@ -35,7 +35,6 @@ const JOBS = [
       "This is not a compliance-based role. We believe behaviour is communication, autonomy is a right, and trust is the foundation of all care."
     ],
     requirements: [
-      "NCP Certificate",
       "Experience supporting autistic or neurodivergent individuals",
       "Strong communication and active listening skills",
       "Ability to work independently in a remote setting",
