@@ -23,7 +23,7 @@ const JOBS = [
   {
     id: "autism-support-care-worker-remote",
     title: "Autism Support Care Worker (Sponsorship)",
-    company: "Stanford Hire",
+    company: "CederTree UK",
     location: "Hybrid/London",
     type: "Full time or flexible",
     visa: "Visa sponsorship available",
